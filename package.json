@@ -1,0 +1,12 @@
+{
+  "name": "hangouts.demo",
+  "description": "Hangouts Demo using SimpleWebRTC and SingalMaster",
+  "version": "0.0.1",
+  "dependencies": {
+    "simplewebrtc":"*",
+    "signal-master": "*",
+    "recordrtc":"*",
+    "express": "*"
+  },
+  "main": "server.js"
+}

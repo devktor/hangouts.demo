@@ -1,0 +1,83 @@
+html, body{
+    height: 100%;
+    background: #111122;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+    z-index:99;
+    position: relative;
+}
+
+.controls{
+    background-color: #111122;
+    z-index:99;
+    opacity: 0.8;
+    position: relative;
+    padding: 10px;
+    width:200px;
+}
+
+#screen-btn{
+    float:left;
+    margin-right: 20px;
+}
+.main-screen{
+    top:0;
+    position: absolute;
+    width: 100%;
+
+}
+.main-screen video{
+    height: 100%;
+}
+.share-screen{
+    clear:both;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /*margin-bottom: 10px;*/
+}
+
+
+.screen-list{
+    width: 200px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    overflow: auto;
+}
+.screen-list video{
+    height: 150px;
+    padding-bottom: 10px;
+}
+#videos{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 20%;
+    overflow:auto;
+}
+.videoContainer {
+    float:left;
+    margin-right:10px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+.videoContainer video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.volume_bar {
+    position: absolute;
+    width: 5px;
+    height: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #12acef;
+}

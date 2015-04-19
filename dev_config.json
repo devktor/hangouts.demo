@@ -1,0 +1,16 @@
+{
+    "isDev": true,
+    "logLevel": 3,
+    "server": {
+        "port": 8888,
+        "secure": true, /* whether this connects via https */
+        "key": "cert/privatekey.pem",
+        "cert": "cert/certificate.pem",
+        "password": null
+    },
+    "rooms": {
+      "maxClients": 0 /* maximum number of clients per room. 0 = no limit */
+    },
+    "stunservers" : [],
+    "turnservers" : []
+}
